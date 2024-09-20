@@ -2,28 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer components{
+@layer components {
   .primary-btn {
     @apply bg-orange-300 text-white font-semibold py-3 px-6 rounded-md hover:!scale-110 duration-300;
   }
 
-  html{
+  html {
     @apply h-full scroll-smooth antialiased;
   }
 
-  body{
+  body {
     @apply flex h-full flex-col;
   }
 
-  main{
+  main {
     @apply flex-1;
   }
 
-  .section{
+  .section {
     @apply py-24;
   }
-
-
 }
-
